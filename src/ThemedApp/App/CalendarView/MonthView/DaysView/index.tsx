@@ -9,7 +9,7 @@ interface Props {
   calendar?: Calendar;
 }
 
-const WeekView: React.StatelessComponent<Props> = props => {
+const DaysView: React.StatelessComponent<Props> = props => {
   const { calendar } = props;
   return fromNullable(calendar)
     .map(cal =>
@@ -20,4 +20,4 @@ const WeekView: React.StatelessComponent<Props> = props => {
     .getOrElse(<span>Calendar not configured</span>);
 };
 
-export default inject('calendar')(observer(WeekView));
+export default inject('calendar')(observer(DaysView));
