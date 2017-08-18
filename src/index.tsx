@@ -5,7 +5,7 @@ import { Provider } from 'mobx-react';
 import * as injectTapEventPlugin from 'react-tap-event-plugin';
 import ThemedApp from './ThemedApp';
 import registerServiceWorker from './registerServiceWorker';
-import Calendar from './Calendar';
+import Calendar from 'calendaria';
 import './index.css';
 
 // -- material-ui uses this for onTouchTap

@@ -2,7 +2,7 @@ import * as React from 'react';
 import { observer } from 'mobx-react';
 import FontIcon from 'material-ui/FontIcon';
 import IconButton from 'material-ui/IconButton';
-import Calendar from './../../../../../../Calendar';
+import Calendar from 'calendaria';
 
 interface Props {
   calendar: Calendar;

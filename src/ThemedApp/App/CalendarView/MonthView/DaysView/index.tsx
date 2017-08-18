@@ -2,7 +2,7 @@ import * as React from 'react';
 import { observer, inject } from 'mobx-react';
 import GridList from 'material-ui/GridList';
 import DayView from './../DayView';
-import Calendar from './../../../../../Calendar';
+import Calendar from 'calendaria';
 import { fromNullable } from 'maybeasy';
 
 interface Props {

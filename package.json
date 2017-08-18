@@ -7,6 +7,7 @@
     "@types/node": "^8.0.17",
     "@types/react": "^15.6.0",
     "@types/react-dom": "^15.5.1",
+    "calendaria": "^1.0.0",
     "jsonous": "^1.1.1",
     "material-ui": "^0.18.7",
     "maybeasy": "^1.1.1",

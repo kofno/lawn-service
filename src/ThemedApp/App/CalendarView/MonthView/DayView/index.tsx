@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { observer } from 'mobx-react';
 import GridTile from 'material-ui/GridList/GridTile';
-import { Day, title } from './../../../../../Calendar/Day';
+import { Day, title } from 'calendaria/dist/Day';
 
 const style: { body: React.CSSProperties } = {
   body: {
